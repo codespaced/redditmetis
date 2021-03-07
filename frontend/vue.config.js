@@ -1,6 +1,4 @@
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
-// const UglifyJsPlugin = require('uglifyjs-webpack-plugin'); // This doesn't minify ES6 anymore
-
 const TerserPlugin = require('terser-webpack-plugin');
 
 var webpack = require('webpack');
